@@ -1,3 +1,1 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado o utilizó otros comandos que no se mencionan al realizar la práctica también se debe documentar.
+Antes solo sabía guardar datos conectando carpetas de mi computadora al contenedor. Ahora aprendí a usar Volúmenes Nombrados, que son espacios seguros que el propio Docker crea y administra para no perder información importante, como las bases de datos.
