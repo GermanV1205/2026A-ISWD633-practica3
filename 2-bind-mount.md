@@ -19,19 +19,29 @@ docker run -d --name <nombre contenedor> --mount type=bind,source=<ruta carpeta 
 # COMPLETAR CON EL COMANDO
 
 ### ¿Qué sucede al ingresar al servidor de nginx?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+```
+Se observa un error 403 Forbidden.
+```
 
 ### ¿Qué pasa con el archivo index.html del contenedor?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+```
+El archivo index.html original que venía dentro de la imagen de Nginx queda oculto o enmascarado.
+```
 
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+```
+El servidor ahora mostrará correctamente la página web del template descargado.
+```
 
 ### Eliminar el contenedor
-# COMPLETAR CON EL COMANDO
+```
+docker rm servidor-web
+```
 
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+```
+Al crear el nuevo contenedor, el sitio web aparecerá funcionando perfectamente desde el primer segundo. A diferencia de lo que pasaría si los archivos estuvieran dentro del contenedor, aquí los datos son persistentes porque residen en el host.
+```
 
 
